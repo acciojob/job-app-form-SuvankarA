@@ -1,2 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.required:after {
+    content: " *";
+    color: red;
+}
+
+.form {
+    margin: 100px;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: 'Permanent Marker';
+    background-color: rgb(238, 238, 238);
+    /* border: 3px solid black; */
+}
+
+
+h1 {
+    font-size: 64px;
+    text-decoration: underline;
+    margin-left: 400px;
+}
+form{
+    margin-left: 400px;
+}
+#submit{
+    width: 126px;
+    height: 28px;
+    left: 98px;
+    top: 808px;
+    background-color: rgb(219, 219, 219);
+    font-family: 'Permanent Marker';
+    border-radius: 30px;
+}
+input{
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+
+
+
 
 /* Your CSS Code here. */

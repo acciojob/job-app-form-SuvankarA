@@ -4,10 +4,75 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="main">
+		<div class="form">
+			<h1>JOB FORM</h1>
+			<form action="#" method="get" id="form">
+				<!-- name -->
+				<div class="required">
+					<label for="name">Name*:</label><br><br>
+					<input type="text" id="name" placeholder=" Enter your full name" required>
+				</div><br>
+
+				<!-- email -->
+				<div class="required">
+					<label for="email">Email*:</label><br><br>
+					<input type="email" id="email" placeholder=" Enter your email" required>
+				</div><br>
+
+				<!-- Gender -->
+				<div class="required">
+					<label for="gender">Gender*:</label>&nbsp;
+					<input type="radio" name="gender" id="male" required>
+					<label id="chhele">Male</label>
+					<input type="radio" name="gender" id="female" required>
+					<label id="meye">Female</label>
+				</div><br>
+
+				<!-- Laptop -->
+					<label for="laptop">Laptop Brands: </label>
+					<select name="laptop" id="laptop" form="form">
+						<option value="">Select your option</option>
+						<option value="Apple">Apple</option>
+						<option value="Asus">Asus</option>
+						<option value="HP">HP</option>
+					</select><br><br>
+				
+				<!-- age -->
+				<div class="required">
+					<label for="age">Age*:</label>
+					<input type="number" name="age" id="age" placeholder=" Enter your age" required>
+				</div><br><br>
+
+				<!-- date of Birth -->
+				<div class="required">
+					<label for="dob">DOB*:</label>
+					<input type="date" name="dob" id="dob"  required>
+				</div><br><br>
+
+				<!-- password -->
+				<div class="required">
+					<label for="password">Password*:</label>
+					<input type="password" name="password" id="password" placeholder=" Enter password" required>
+				</div><br><br>
+
+				<div class="required">
+					<label for="portfolio">Portfolio:</label>
+					<input type="url" name="portfolio" id="portfolio" placeholder=" Upload your portfolio URL" required>
+				</div><br><br>
+				
+				<!-- Submit Button -->
+				<div id="submit">
+					<input type="submit" value="submit" id="submit">
+				</div>
+			</form>
+		</div>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
